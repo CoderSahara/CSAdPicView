@@ -1,0 +1,22 @@
+{
+  "name": "CSAdPicView",
+  "version": "0.1.0",
+  "summary": "A short description of CSAdPicView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CoderSahara/CSAdPicView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderSahara": "sahara@gitlab.com"
+  },
+  "source": {
+    "git": "https://github.com/CoderSahara/CSAdPicView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSAdPicView/Classes/**/*"
+}

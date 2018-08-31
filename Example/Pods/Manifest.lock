@@ -1,0 +1,29 @@
+PODS:
+  - CSAdPicView (0.1.0)
+  - MJExtension (3.0.15.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - CSAdPicView (from `../`)
+  - MJExtension
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CSAdPicView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSAdPicView: c9c28fab197fa3e1774dc441b3269eda5d57ce85
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 7f63e1bbe64523153f1813d768ca2a1ed477c6f0
+
+COCOAPODS: 1.5.3

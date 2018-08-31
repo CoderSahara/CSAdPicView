@@ -2,7 +2,9 @@ use_frameworks!
 
 target 'CSAdPicView_Example' do
   pod 'CSAdPicView', :path => '../'
-
+  
+  pod 'SDWebImage'
+  pod 'MJExtension'
   target 'CSAdPicView_Tests' do
     inherit! :search_paths
 

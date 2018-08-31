@@ -1,0 +1,6 @@
+framework module CSAdPicView {
+  umbrella header "CSAdPicView-umbrella.h"
+
+  export *
+  module * { export * }
+}

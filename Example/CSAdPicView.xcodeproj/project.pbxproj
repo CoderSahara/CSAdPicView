@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0778615066D0D6359BE7D071 /* Pods_CSAdPicView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7156DFCE6A4A3FDD76A1C3DE /* Pods_CSAdPicView_Example.framework */; };
+		1F74AF30213924F9008DA95D /* CSFocusImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74AF2F213924F9008DA95D /* CSFocusImageModel.m */; };
+		1F74AF33213925BE008DA95D /* CSAdPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74AF32213925BE008DA95D /* CSAdPicModel.m */; };
+		1F74AF3721392668008DA95D /* CSLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74AF3621392668008DA95D /* CSLiveModel.m */; };
+		1F74AF3A21392687008DA95D /* CSTuiguangModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74AF3921392687008DA95D /* CSTuiguangModel.m */; };
+		1F74AF3D2139269B008DA95D /* CSClassItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F74AF3C2139269B008DA95D /* CSClassItemModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,8 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F74AF2E213924F9008DA95D /* CSFocusImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFocusImageModel.h; sourceTree = "<group>"; };
+		1F74AF2F213924F9008DA95D /* CSFocusImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFocusImageModel.m; sourceTree = "<group>"; };
+		1F74AF31213925BE008DA95D /* CSAdPicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAdPicModel.h; sourceTree = "<group>"; };
+		1F74AF32213925BE008DA95D /* CSAdPicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAdPicModel.m; sourceTree = "<group>"; };
+		1F74AF3521392668008DA95D /* CSLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSLiveModel.h; sourceTree = "<group>"; };
+		1F74AF3621392668008DA95D /* CSLiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSLiveModel.m; sourceTree = "<group>"; };
+		1F74AF3821392687008DA95D /* CSTuiguangModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSTuiguangModel.h; sourceTree = "<group>"; };
+		1F74AF3921392687008DA95D /* CSTuiguangModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTuiguangModel.m; sourceTree = "<group>"; };
+		1F74AF3B2139269B008DA95D /* CSClassItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSClassItemModel.h; sourceTree = "<group>"; };
+		1F74AF3C2139269B008DA95D /* CSClassItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSClassItemModel.m; sourceTree = "<group>"; };
 		295C88E092CD3ED7426A314E /* Pods-CSAdPicView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSAdPicView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSAdPicView_Example/Pods-CSAdPicView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5C3EA1ADC94D79D1BF1DDC54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C3EA1ADC94D79D1BF1DDC54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CSAdPicView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSAdPicView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +79,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		907F3A9D3B4604FCE497E118 /* Pods-CSAdPicView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSAdPicView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSAdPicView_Tests/Pods-CSAdPicView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C6C20FBF13140C4A1BD4DDD9 /* CSAdPicView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSAdPicView.podspec; path = ../CSAdPicView.podspec; sourceTree = "<group>"; };
+		C6C20FBF13140C4A1BD4DDD9 /* CSAdPicView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSAdPicView.podspec; path = ../CSAdPicView.podspec; sourceTree = "<group>"; };
 		D101049509C98FCEF8D45B1F /* Pods_CSAdPicView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSAdPicView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF51A8EEF4AEE28216525EBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DF51A8EEF4AEE28216525EBD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F74AF3421392640008DA95D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F74AF31213925BE008DA95D /* CSAdPicModel.h */,
+				1F74AF32213925BE008DA95D /* CSAdPicModel.m */,
+				1F74AF2E213924F9008DA95D /* CSFocusImageModel.h */,
+				1F74AF2F213924F9008DA95D /* CSFocusImageModel.m */,
+				1F74AF3521392668008DA95D /* CSLiveModel.h */,
+				1F74AF3621392668008DA95D /* CSLiveModel.m */,
+				1F74AF3821392687008DA95D /* CSTuiguangModel.h */,
+				1F74AF3921392687008DA95D /* CSTuiguangModel.m */,
+				1F74AF3B2139269B008DA95D /* CSClassItemModel.h */,
+				1F74AF3C2139269B008DA95D /* CSClassItemModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		42DAE47DE3FDB4D7636EAF23 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +175,7 @@
 		6003F593195388D20070C39A /* Example for CSAdPicView */ = {
 			isa = PBXGroup;
 			children = (
+				1F74AF3421392640008DA95D /* Models */,
 				6003F59C195388D20070C39A /* CSAppDelegate.h */,
 				6003F59D195388D20070C39A /* CSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -247,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CoderSahara;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7333WETNSZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -320,10 +356,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CSAdPicView_Example/Pods-CSAdPicView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CSAdPicView/CSAdPicView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSAdPicView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -356,8 +396,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CSAppDelegate.m in Sources */,
+				1F74AF33213925BE008DA95D /* CSAdPicModel.m in Sources */,
+				1F74AF30213924F9008DA95D /* CSFocusImageModel.m in Sources */,
+				1F74AF3721392668008DA95D /* CSLiveModel.m in Sources */,
 				6003F5A7195388D20070C39A /* CSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1F74AF3D2139269B008DA95D /* CSClassItemModel.m in Sources */,
+				1F74AF3A21392687008DA95D /* CSTuiguangModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +530,7 @@
 			baseConfigurationReference = 295C88E092CD3ED7426A314E /* Pods-CSAdPicView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7333WETNSZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSAdPicView/CSAdPicView-Prefix.pch";
 				INFOPLIST_FILE = "CSAdPicView/CSAdPicView-Info.plist";
@@ -500,6 +546,7 @@
 			baseConfigurationReference = 67504937D122EFECB974B794 /* Pods-CSAdPicView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7333WETNSZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSAdPicView/CSAdPicView-Prefix.pch";
 				INFOPLIST_FILE = "CSAdPicView/CSAdPicView-Info.plist";
