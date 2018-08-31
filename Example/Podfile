@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CSAdPicView_Example' do
+  pod 'CSAdPicView', :path => '../'
+
+  target 'CSAdPicView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
